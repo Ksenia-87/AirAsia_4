@@ -1,0 +1,56 @@
+.welcome {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: url("../../img/welcome-bg.png") center no-repeat;
+}
+
+.central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.central--asia {
+  opacity: 0;
+  animation: zoom .9s forwards;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(.7);
+  }
+
+  20% {
+    transform: scale(1.2);
+  }
+
+  40% {
+    transform: scale(.9);
+  }
+
+  60% {
+    transform: scale(1.1);
+  }
+
+  80% {
+    transform: scale(.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.central__subtitle {
+  weight: 400;
+  size: 18px;
+  line-height: 24.51px;
+  margin-bottom: 52.5px;
+}
