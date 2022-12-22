@@ -1,5 +1,5 @@
 .offers {
-  margin-top: 200px;
+  margin-top: 240px;
   min-height: 549px;
 }
 
@@ -10,6 +10,8 @@
 
 .offer_title {
   text-align: left;
+  margin-left: 2px;
+  margin-top: 2px;
 }
 
 .title--fire::after {
@@ -52,6 +54,7 @@
   flex-direction: column;
   padding: 26px 20px;
   color: #303030;
+  margin-top: 8px;
 }
 
 .offers__title {
@@ -59,12 +62,13 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 33px;
-  margin-bottom: 21px;
+  margin-bottom: 14px;
+  margin-left: 2px;
 }
 
 .offers__feature {
   display: inline-block;
-  margin-right: 28px;
+  margin-right: 37px;
 }
 
 .offers__feature-icon {
@@ -89,7 +93,8 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  margin-top: 25.5px;
+  margin-top: 27px;
+  margin-left: 2px;
 }
 
 .button-light {

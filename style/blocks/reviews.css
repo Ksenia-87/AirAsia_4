@@ -1,0 +1,263 @@
+.reviews {
+  column-count: 2;
+  column-gap: 27px;
+  margin-bottom: 76px;
+  min-width: 557px;
+}
+
+.reviews__item {
+  margin-bottom: 17px;
+}
+
+.review {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 50px 28px;
+  background-color: #F4F5F5;
+}
+
+.review__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 27px;
+}
+
+.review__user {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 42px;
+  color: #1A1B1E;
+  margin-bottom: 12px;
+}
+
+.review__user:hover {
+  color: #2E77A4;
+  transition: .3s;
+}
+
+.review__user:after {
+  content: url("../../img/vk-blue.png");
+  height: 37px;
+}
+
+.avatar {
+  width: 142px;
+  height: 142px;
+  overflow: hidden;
+}
+
+.review__userdata {
+  margin-left: 22px;
+}
+
+.review__tag {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #303030;
+  padding: 9px 17px;
+  border-radius: 50px;
+  background-color: #E7E7E7;
+  text-align: center;
+}
+
+.review__tag--green {
+  background-color: #B9EAE4;
+}
+
+.review__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  color: #1A1B1E;
+  margin-bottom: 13px;
+}
+
+.review__content-text {
+  margin-bottom: 48.5px;
+}
+
+.review__date {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+  color: #1A1B1E;
+}
+
+.separator {
+  background: url("../../img/Rectangle.jpg") center no-repeat;
+  min-height: 363px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.separator__content {
+  max-width: 50%;
+  display: inline-flex;
+}
+
+.separator__banner {
+  position: absolute;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.separator__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 55px;
+  margin-top: 115px;
+}
+
+.separator__img {
+  position: absolute;
+  height: 100%;
+  margin-left:630px;
+  bottom: -22px;
+}
+
+/*.separator__photo {
+  justify-content: flex-end;
+}*/
+
+.feedback--grey {
+  background-color: #F4F5F5;
+  height: 799px;
+}
+
+.feedback__container {
+  padding-top: 62px;
+}
+
+.feedback__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+  color: #1A1B1E;
+  margin-bottom: 57px;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 26px;
+}
+
+.form__input {
+  flex: 1;
+  margin-right: 28px;
+  border-radius: 5px;
+  border: none;
+  background: #fff;
+  padding: 19px 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #1A1B1E;
+}
+
+.form__input::placeholder {
+  color: #666;
+}
+
+.form__input:last-child {
+  margin-right: 0;
+}
+
+.form__input--textarea {
+  height: 235px;
+}
+
+.form__textarea {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.form__controls {
+  display: flex;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.form__controls-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #1A1B1E;
+  width: 365px;
+  margin-top: 34px;
+  margin-right: 43px;
+}
+
+.controls {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 23px;
+}
+
+.controls__item {
+  margin-bottom: 9px;
+  margin-right: 18px;
+}
+
+.controls__elem {
+  cursor: pointer;
+}
+
+.tag {
+  height: 37px;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 9px 15px;
+  background:#E7E7E7;
+  color: #303030;
+  border-radius: 35px;
+  min-width: 80px;
+  text-align: center;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+  background: #B9EAE4;
+}
+
+.controls__checkbox {
+  display: none;
+}
+
+.button--color--black {
+  background: #2B2B2B;
+}
+
+.button--color--black:hover  {
+  background-color: #686666;
+  transition: .3s;
+  }
+
+.form__buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form__button {
+  margin-right: 17px;
+}
+
+.form__button:last-child {
+  margin-right: 0;
+}

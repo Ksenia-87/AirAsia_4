@@ -23,6 +23,11 @@
 .partners__list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.partners__list--top {
+
 }
 
 .partners__item {
@@ -30,9 +35,9 @@
   margin-bottom: 70px;
 }
 
-.partners__item:nth-child(4n+1) {
+/*.partners__item:nth-child(4n+1) {
   margin-left: 0;
-}
+}*/
 
   .partners__link {
     text-decoration: none;
@@ -41,4 +46,8 @@
     height: 100px;
     align-items: center;
     justify-content: center;
+  }
+
+  .partners__link--short {
+    width: 230px;
   }
