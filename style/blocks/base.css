@@ -201,6 +201,7 @@ img {
 	font-size: 11px;
 	line-height: 20px;
 	text-align: right;
+	margin-top: 11px;
 }
 
 .contacts__phone {
@@ -387,6 +388,7 @@ transition: .3s;
 	align-items: center;
 	justify-content:flex-start;
 	width: 50%;
+	margin-top: -18px;
 }
 
 .menu__link {
@@ -405,6 +407,7 @@ transition: .3s;
 .social {
 	margin-right: 74px;
 	display: flex;
+	margin-top: 12px;
 }
 
 .social__item {

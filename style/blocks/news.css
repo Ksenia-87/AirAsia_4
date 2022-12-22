@@ -24,7 +24,7 @@
 
 .news__item {
   position: relative;
-  display: inline-flex;
+  display: flex;
   margin-right: 22px;
   max-width: 557px;
   margin-top: 51px;
@@ -36,21 +36,16 @@
 
 .news__content{
   position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
+  flex-wrap: wrap;
   padding: 47.5px 31px;
   min-height: 140px;
-}
-
-.plane {
-bottom: 20px;
+  margin-top: 202.5px;
 }
 
 .news__image {
   border-radius: 5px;
-  max-width: 557px;
-  max-height: 394px;
+  min-width: 557px;
+  min-height: 394px;
 }
 
 .news__date {
@@ -69,10 +64,11 @@ bottom: 20px;
 }
 
 .news__text {
-  margin-top: 3.5px;
+  margin-top: -0.5px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
+  margin-top: 3px;
   }
 
