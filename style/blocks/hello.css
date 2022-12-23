@@ -16,6 +16,7 @@
   font-size: 72px;
   line-height: 98px;
   max-width: 511px;
+  margin-bottom: 27.5px;
   }
 
 .hello__subtitle {
@@ -23,7 +24,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 20px;
-  margin-top: -8px;
+  margin-bottom: 33.5px;
 }  
 
 .hello__button {
@@ -31,5 +32,4 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
-  margin-bottom: 1.5px;
 }

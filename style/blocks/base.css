@@ -73,8 +73,7 @@ img {
 	background: url("../../img/background.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position-y: 9px;
-	background-position-x: -50px;
+	background-position-y: bottom;
 }
 
 .container {
@@ -103,15 +102,23 @@ img {
 .logo {
 	display: block;
 	margin-right: 79px;
-	margin-top: 11px;
+}
+
+.logo--service {
+
 }
 
 .menu {
-	margin-top: 20px;
+	
+}
+
+.menu--service {
+	margin-left: -2px;
+	margin-top: 18px;
 }
 
 .menu__item {
-	margin-right: 51px;
+	margin-right: 54px;
 }
 
 .menu__item:last-child {
@@ -124,7 +131,10 @@ img {
 	font-style: normal;
 	font-weight: 400;
 	min-width: 191px;
-	margin-top: 10px;
+}
+
+.contacts--service {
+	margin-top: -8px;
 }
 
 .contacts__info {
@@ -201,12 +211,12 @@ img {
 	font-size: 11px;
 	line-height: 20px;
 	text-align: right;
-	margin-top: 11px;
 }
 
 .contacts__phone {
 	font-size: 26px;
 	line-height: 35px;
+	margin-top: 2px;
 }
 
 .contacts__info {
@@ -268,6 +278,10 @@ transition: .3s;
 	transition: .3s;
 }
 
+.about__button--service {
+	margin-left: -3px;
+}
+
 .button-light:hover {
 	background-color: #DA0100;
 	transition: .3s;
@@ -278,19 +292,11 @@ transition: .3s;
 	width: 100%;
 	vertical-align: middle;
 	display: inline-flex;
-	justify-content: center;
-	margin-top: 57.5px;	
+	justify-content: center;	
 }
-
 
 .paginator__display .paginator__list {
 	display: inline-block;
-	vertical-align: middle;
-}
-
-.paginator__list {
-	display: flex;
-	gap: 24px;
 	vertical-align: middle;
 }
 
@@ -301,6 +307,12 @@ transition: .3s;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 20px;
+}
+
+.paginator__list {
+	display: flex;
+	gap: 24px;
+	vertical-align: middle;
 }
 
 .paginator__item {
@@ -381,6 +393,7 @@ transition: .3s;
 .footer__container {
 	display: flex;
 	width: 100%;
+	padding-bottom: 57px;
 }
 
 .footer__col {
@@ -388,7 +401,6 @@ transition: .3s;
 	align-items: center;
 	justify-content:flex-start;
 	width: 50%;
-	margin-top: -18px;
 }
 
 .menu__link {
@@ -407,7 +419,7 @@ transition: .3s;
 .social {
 	margin-right: 74px;
 	display: flex;
-	margin-top: 12px;
+	/*margin-top: 12px;*/
 }
 
 .social__item {

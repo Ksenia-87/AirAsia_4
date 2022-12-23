@@ -1,11 +1,12 @@
 .about {
-  margin-top: 155.5px;
-  min-height: 605px;
+  margin-top: 152.5px;
+  min-height: 658px;
 }
 
 .about__container{
   position: relative;
   display: flex;
+  padding-bottom: 53px;
 }
 
 .about__background {

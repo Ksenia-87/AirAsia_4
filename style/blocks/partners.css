@@ -9,6 +9,8 @@
   background: #F4F5F5;
   max-height: 540px;
   width: 100%;
+  margin-top: -6px;
+  margin-left: 252px;
   }
 
 .partners__title {
@@ -28,6 +30,10 @@
 
 .partners__list--top {
 
+}
+
+.partners__list--bottom {
+  
 }
 
 .partners__item {
