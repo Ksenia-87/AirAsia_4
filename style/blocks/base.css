@@ -104,19 +104,6 @@ img {
 	margin-right: 79px;
 }
 
-.logo--service {
-
-}
-
-.menu {
-	
-}
-
-.menu--service {
-	margin-left: -2px;
-	margin-top: 18px;
-}
-
 .menu__item {
 	margin-right: 54px;
 }
@@ -131,10 +118,6 @@ img {
 	font-style: normal;
 	font-weight: 400;
 	min-width: 191px;
-}
-
-.contacts--service {
-	margin-top: -8px;
 }
 
 .contacts__info {
@@ -389,6 +372,10 @@ transition: .3s;
 	width: 100%;
 	max-height: 146px;
 	padding-bottom: 57px;
+}
+
+.footer-review, .footer-service {
+	padding-top: 55px;
 }
 
 .footer--service {
