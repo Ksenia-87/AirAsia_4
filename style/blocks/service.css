@@ -1,8 +1,8 @@
 .page-content {
   background: #fff;
   color: #303030;
-  padding-top: 104px;
-  padding-bottom: 98px;
+  padding-top: 98px;
+  padding-bottom: 90px;
 }
 
 .services {
@@ -17,6 +17,7 @@
 
 .service__img {
   width: 460px;
+  height: 333px;
   margin-right: 56px;
   border-radius: 5%;
   margin-bottom: 49px;
@@ -30,7 +31,7 @@
   flex: 1;
   min-height: 305px;
   max-width: 652px;
-  padding-top: 12px;
+  padding: 12px 0px;
 }
 
 .service__title {
@@ -48,6 +49,5 @@
   line-height: 27px;
   margin-bottom: 34.5px;
   color: #303030;
-  margin-left: -2px;
 }
 
