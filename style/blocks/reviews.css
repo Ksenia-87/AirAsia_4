@@ -42,6 +42,7 @@
   color: #2E77A4;
   text-decoration: underline;
   transition: .3s;
+  cursor: pointer;
 }
 
 .review__user:after {
@@ -180,6 +181,11 @@
   color: #1A1B1E;
 }
 
+.form__input:hover {
+  border: 1px solid #F5170E;
+  cursor: pointer;
+}
+
 .form__input::placeholder {
   color: #666;
 }
@@ -267,6 +273,7 @@
 .button--color--black:hover  {
   background-color: #2B2B2B;
   transition: .3s;
+  cursor: pointer;
   }
 
 .form__buttons {

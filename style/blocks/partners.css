@@ -52,6 +52,7 @@
 
 .partners__link:hover {
   filter: none;
+  cursor: pointer;
 }
 
 .partners__link--short {
