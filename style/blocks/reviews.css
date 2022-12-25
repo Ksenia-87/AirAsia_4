@@ -181,7 +181,8 @@
   color: #1A1B1E;
 }
 
-.form__input:hover {
+.form__input:focus {
+  outline: none !important;
   border: 1px solid #F5170E;
   cursor: pointer;
 }
@@ -200,6 +201,12 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
+}
+
+.form__input--textarea:focus {
+  outline: none !important;
+  border: 1px solid #F5170E;
+  cursor: pointer;
 }
 
 .form__controls {
